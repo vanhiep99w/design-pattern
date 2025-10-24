@@ -439,7 +439,12 @@ This project demonstrates the following design patterns:
   - NotificationFactory with Email, SMS, and Push notification services
   - Sample OrderProcessingService demonstrating runtime factory usage
   - See [Factory Pattern README](src/main/java/com/designpatterns/showcase/factory/README.md)
-- Singleton
+- **Singleton** ✅ - Implemented in `singleton/` package
+  - ConfigurationManager using Initialization-on-Demand Holder pattern
+  - DatabaseConnectionPool with double-checked locking and thread-safety
+  - Spring bean scopes comparison (singleton vs prototype)
+  - Comprehensive thread-safety demonstrations and integration tests
+  - See [Singleton Pattern README](singleton/README.md)
 - Abstract Factory
 - Builder
 - Prototype
