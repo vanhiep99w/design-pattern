@@ -431,11 +431,15 @@ mvn test -Dtest=*ControllerTest
 
 ## Design Patterns
 
-This project will demonstrate the following design patterns (to be implemented):
+This project demonstrates the following design patterns:
 
 ### Creational Patterns
+- **Factory Method** ✅ - Implemented in `factory/` package
+  - PaymentProcessorFactory with Credit Card, PayPal, and Cryptocurrency processors
+  - NotificationFactory with Email, SMS, and Push notification services
+  - Sample OrderProcessingService demonstrating runtime factory usage
+  - See [Factory Pattern README](src/main/java/com/designpatterns/showcase/factory/README.md)
 - Singleton
-- Factory Method
 - Abstract Factory
 - Builder
 - Prototype
