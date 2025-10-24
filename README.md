@@ -459,11 +459,17 @@ This project demonstrates the following design patterns:
   - DataImportExportWorkflow with Database (JdbcTemplate) and CSV implementations
   - Complete with hook methods, validation, and H2 database integration
   - See [Template Method Pattern README](templatemethod/README.md)
+- **Observer** ✅ - Implemented in `observer/` package
+  - Domain events for orders (created, shipped, delivered) and user registration
+  - ApplicationEventPublisher and @EventListener implementation
+  - Asynchronous event processing with @Async and custom thread pool
+  - Event chaining demonstration (welcome email → profile creation → external notification)
+  - Comprehensive testing with @RecordApplicationEvents and Awaitility
+  - See [Observer Pattern README](observer/README.md)
 - Chain of Responsibility
 - Command
 - Iterator
 - Mediator
-- Observer
 - Strategy
 - Visitor
 
