@@ -453,13 +453,18 @@ This project demonstrates the following design patterns:
 - Proxy
 
 ### Behavioral Patterns
+- **Template Method** ✅ - Implemented in `templatemethod/` package
+  - OrderWorkflow with Standard and Express implementations
+  - PaymentWorkflow with Credit Card and Cryptocurrency support
+  - DataImportExportWorkflow with Database (JdbcTemplate) and CSV implementations
+  - Complete with hook methods, validation, and H2 database integration
+  - See [Template Method Pattern README](templatemethod/README.md)
 - Chain of Responsibility
 - Command
 - Iterator
 - Mediator
 - Observer
 - Strategy
-- Template Method
 - Visitor
 
 ## Contributing
