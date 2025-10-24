@@ -448,7 +448,12 @@ This project demonstrates the following design patterns:
 - Adapter
 - Bridge
 - Composite
-- Decorator
+- **Decorator** ✅ - Implemented in `decorator/` package
+  - Service decorators for DataService with logging, caching, encryption, and feature toggles
+  - Demonstrates decorator stacking and runtime composition via Spring configuration
+  - @Primary/@Qualifier usage for Spring bean composition
+  - Comprehensive testing including logging validation, cache effectiveness, and encryption correctness
+  - See [Decorator Pattern README](decorator/README.md)
 - Facade
 - Proxy
 
